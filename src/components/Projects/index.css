@@ -1,0 +1,44 @@
+.project-main-head-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height:80vh;
+    overflow-y:scroll;
+}
+
+.project-head-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:70%;
+}
+
+.project-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+}
+
+.fir-project-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:70%;
+    align-items: center;
+}
+
+.para-project-con{
+    font-family: 'Roboto';
+}
+
+.span-project-con{
+    font-family: 'Roboto';
+}
+
+.tech{
+    color: light blanchedalmond;
+    font-family: 'Roboto';
+}

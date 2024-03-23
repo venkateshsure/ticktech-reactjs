@@ -1,0 +1,40 @@
+.about-main-head-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height:80vh;
+}
+
+.about-head-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:90%;
+}
+
+.about-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:70%;
+}
+
+.head{
+    font-family:'Roboto';
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    align-items: flex-start;
+}
+
+.nxtwave .tenth .inter .btech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+
+}

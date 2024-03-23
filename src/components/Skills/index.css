@@ -1,0 +1,34 @@
+.skills-main-head-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height:80vh;
+}
+
+.skills-head-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:70%;
+}
+
+.skills-con{
+    display: flex;
+    width:50%;
+    flex-wrap: wrap;
+}
+
+.frontend{
+    display: flex;
+    flex-direction: row;
+    width:5 0%;
+    font-family: 'Roboto';
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

@@ -1,0 +1,40 @@
+.footer-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-icons-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    font-size: xx-large;
+}
+
+@keyframes beating {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor:pointer;
+    animation: beating 0.8s infinite;
+}
+
+.icon:hover{
+    background-color: blue;
+    border-radius:10px;
+    padding: 5px;
+}
